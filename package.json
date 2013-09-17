@@ -1,0 +1,15 @@
+{
+    "name": "spaceship",
+    "version": "0.0.1",
+    "dependencies": {
+        "express": "3.x.x",
+        "coffee-script": "latest",
+        "connect-assets": "latest",
+        "coffeecup": "latest",
+        "less": "latest",
+        "ccss": "latest"
+    },
+    "engines": {
+        "node": "0.x.x"
+    }
+}
