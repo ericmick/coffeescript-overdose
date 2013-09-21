@@ -1,7 +1,7 @@
 doctype 5
 html ->
     head ->
-        title 'caffeine'
+        title 'coffeescript-overdose'
         css 'style'
     body ->
         h1 'hello'
