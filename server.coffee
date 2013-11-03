@@ -10,6 +10,7 @@ assets.cssCompilers.coffee =
         template = require sourcePath
         ccss.compile template
 app.use assets()
+app.use express.favicon()
 app.get '*', (req, res) ->
     res.render req.path.match(/[^\/]+/) || 'index', {}
 app.use express.static __dirname + '/public'
